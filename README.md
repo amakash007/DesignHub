@@ -1,4 +1,4 @@
-# UI Design Marketplace - DesignHub
+<!-- # UI Design Marketplace - DesignHub
 
 A production-grade SaaS platform for UI/UX design assets. Designers can monetize their work, and developers can discover production-ready components.
 
@@ -315,4 +315,4 @@ SMTP_PASS=your-password
 
 ---
 
-Built with ❤️ for designers and developers worldwide.
+Built with ❤️ for designers and developers worldwide. -->

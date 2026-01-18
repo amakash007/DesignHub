@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 
-export default function SignupPage() {
+function SignupFormContent() {
   const searchParams = useSearchParams()
   const roleParam = searchParams.get('role')
   const [role, setRole] = useState<'buyer' | 'designer'>(
@@ -30,7 +30,7 @@ export default function SignupPage() {
       return
     }
 
-    
+
     setIsLoading(true)
     await new Promise((resolve) => setTimeout(resolve, 1000))
     setIsLoading(false)
@@ -163,5 +163,13 @@ export default function SignupPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SignupFormContent />
+    </Suspense>
   )
 }

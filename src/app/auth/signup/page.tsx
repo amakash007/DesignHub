@@ -29,6 +29,8 @@ export default function SignupPage() {
       alert('Passwords do not match')
       return
     }
+
+    
     setIsLoading(true)
     await new Promise((resolve) => setTimeout(resolve, 1000))
     setIsLoading(false)

@@ -24,6 +24,9 @@ export default function HeroSection() {
             </button>
           </div>
 
+
+
+
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-2xl font-bold text-gray-900">10K+</div>

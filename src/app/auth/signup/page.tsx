@@ -156,15 +156,15 @@ function SignupFormContent() {
                 href="/auth/login"
                 className="text-blue-500 font-medium hover:text-blue-650"
               >
-                Sign in
+                Sign in 
               </Link>
             </p>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default function SignupPage() {
   return (

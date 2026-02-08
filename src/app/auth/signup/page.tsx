@@ -163,8 +163,8 @@ function SignupFormContent() {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default function SignupPage() {
   return (

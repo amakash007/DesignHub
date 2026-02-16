@@ -171,5 +171,5 @@ export default function SignupPage() {
     <Suspense fallback={<div>Loading...</div>}>
       <SignupFormContent />
     </Suspense>
-  )
-}
+  );
+};

@@ -44,7 +44,7 @@ export default function Header() {
           {/* Right Side */}
           <div className="flex items-center gap-4">
             {/* Cart Icon */}
-            <button className="relative rounded-lg p-2 hover:bg-gray-100">
+            <button className="relative rounded-lg p-2 hover:bg-gray-110">
               <svg
                 className="h-6 w-6 text-gray-600"
                 fill="none"

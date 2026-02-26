@@ -62,7 +62,7 @@ export default function CartPage() {
                       <h3 className="font-semibold text-gray-900">{item.title}</h3>
                       <p className="text-sm text-gray-600">{item.creator}</p>
                       <div className="mt-2 flex items-center justify-between">
-                        <div className="text-lg font-bold text-gray-900">
+                        <div className="text-lg font-bold text-gray-950">
                           ${item.price}
                         </div>
                         <button

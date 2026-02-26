@@ -17,10 +17,10 @@ export default function HeroSection() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <button className="rounded-lg bg-blue-500 px-8 py-3 font-medium text-white hover:bg-blue-600 transition-colors">
-              Start Shopping
+              Start Shopping.
             </button>
             <button className="rounded-lg border border-gray-300 px-8 py-3 font-medium text-gray-700 hover:bg-gray-50 transition-colors">
-              Learn More..
+              Learn More...
             </button>
           </div>
 

@@ -137,7 +137,7 @@ function SignupFormContent() {
 
             <label className="flex items-center gap-2 text-sm text-gray-600">
               <input type="checkbox" required className="rounded" />
-              I agree to the Terms of Service and Privacy Policy
+              I agree to the Terms of Service and Privacy Policy.
             </label>
 
             <button

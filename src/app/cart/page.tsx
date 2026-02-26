@@ -92,7 +92,7 @@ export default function CartPage() {
                   />
                 </svg>
                 <h3 className="mt-4 text-lg font-medium text-gray-900">
-                  Your cart is empty
+                  Your cart is empty!
                 </h3>
                 <Link
                   href="/browse"
